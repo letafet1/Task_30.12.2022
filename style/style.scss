@@ -1,0 +1,158 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+#products__head {
+    width: 20%;
+    margin: 0 auto;
+    height: 200px;
+    padding: 10px;
+    text-align: -webkit-center;
+
+    .products__head__title {
+        width: 100%;
+        height: 100px;
+        padding: 50px 0px 0px;
+        text-align: -webkit-center;
+
+
+        &__introduce {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        &__explain {
+            font-size: 20px;
+            color: rgb(81, 79, 79);
+            margin-bottom: 50px;
+        }
+
+        button {
+            height: 40px;
+            width: 100px;
+            background: inherit;
+            color: rgb(126, 199, 222);
+            font-size: 15px;
+            border: 1px solid;
+            border-radius: 50px;
+        }
+    }
+}
+
+
+
+#products {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: -webkit-center;
+
+
+    .cards {
+        width: 250px;
+        height: auto;
+        display: inline-block;
+        margin-right: 15px;
+
+        &:nth-child(3) {
+            margin-right: 0;
+
+        }
+
+        &__img {
+            width: 100%;
+            height: 300px;
+            object-fit: contain;
+
+            &--border {
+                border-radius: 8px;
+            }
+
+            margin-bottom: 5px;
+        }
+
+        &__product {
+            &__title {
+                font-size: 20px;
+                color: rgb(72, 19, 116);
+                margin-top: 20px;
+                text-align: -webkit-center;
+            }
+
+            &__department {
+                font-size: 16px;
+                color: rgb(115, 112, 112);
+                margin-top: 20px;
+                
+            }
+
+            &--price__old {
+                font-size: 18px;
+                color: rgb(212, 84, 33);
+                margin-top: 10px;
+                display: inline-block;
+            }
+
+            &--price__new {
+                font-size: 18px;
+                color: rgb(15, 151, 74);
+                margin-top: 10px;
+                margin-bottom: 10px;
+                display: inline-block;
+            }
+        }
+
+    }
+}
+
+
+#End {
+    width: 20%;
+    margin: 0 auto;
+    height: 200px;
+    padding: 10px;
+    text-align: -webkit-center;
+
+    .End__Link {
+        width: 100%;
+        height: 100px;
+        padding: 50px 0px 0px;
+        text-align: -webkit-center;
+
+        button {
+            height: 50px;
+            width: 169px;
+            background: inherit;
+            color: rgb(126, 199, 222);
+            font-size: 15px;
+            border: 1px solid;
+            border-radius: 50px;
+        }
+    }
+}
